@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Sao_Paulo');
 session_start();
 if (!isset($_SESSION['admin_logged'])) {
     header('Location: index.php');
@@ -346,7 +347,7 @@ if (isset($_GET['edit'])) {
 </head>
 <body>
     <div class="navbar">
-        <h2>Antigravity Dashboard</h2>
+        <h2>THEUS ADMIN</h2>
         <div>
             <span>Olá, <strong><?= htmlspecialchars($_SESSION['admin_user']) ?></strong></span>
             <a href="logout.php" style="margin-left: 20px;">Sair</a>

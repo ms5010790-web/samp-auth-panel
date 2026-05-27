@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('America/Sao_Paulo');
 session_start();
 require_once 'db.php';
 
@@ -153,7 +154,7 @@ if (isset($_POST['login'])) {
 <body>
     <div class="login-card">
         <div class="header">
-            <h1>Antigravity Auth</h1>
+            <h1>THEUS ADMIN</h1>
             <p>Gerencie o acesso do seu script Moonloader</p>
         </div>
         
