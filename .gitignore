@@ -1,0 +1,4 @@
+*.sqlite
+*.lua
+*.log
+.env
