@@ -347,7 +347,7 @@ if (isset($_GET['edit'])) {
 </head>
 <body>
     <div class="navbar">
-        <h2>THEUS ADMIN</h2>
+        <h2>Theus Admin</h2>
         <div>
             <span>Olá, <strong><?= htmlspecialchars($_SESSION['admin_user']) ?></strong></span>
             <a href="logout.php" style="margin-left: 20px;">Sair</a>

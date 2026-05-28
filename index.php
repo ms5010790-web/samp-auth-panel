@@ -154,7 +154,7 @@ if (isset($_POST['login'])) {
 <body>
     <div class="login-card">
         <div class="header">
-            <h1>THEUS ADMIN</h1>
+            <h1>Theus Admin</h1>
             <p>Gerencie o acesso do seu script Moonloader</p>
         </div>
         
